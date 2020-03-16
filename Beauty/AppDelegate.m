@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
+#import "TabBarController.h"
+#import "NotificationCenter.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  // Override point for customization after application launch.
+  CGRect frame = [UIScreen mainScreen].bounds;
+  self.window = [[UIWindow alloc] initWithFrame:frame];
+  TabBarController *tabBarC = [[TabBarController alloc] init];
+  self.window.rootViewController = tabBarC;
+  [self.window makeKeyAndVisible];
+  
+  [[NotificationCenter sharedInstance]registerService];
+  
   return YES;
 }
 

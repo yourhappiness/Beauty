@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  Beauty
+
+  Created by Anastasia Romanova on 03/06/2019.
+  Copyright © 2019 Anastasia Romanova. All rights reserved.
+*/
+"manicure" = "Маникюр";
+"pedicure" = "Педикюр";
+"design" = "Дизайн";
+"strengthening" = "Укрепление";
+"prices" = "Цены";
+"contacts" = "Контакты";
+"address" = "Наш адрес:\nметро Калужская\nул. Бутлерова, д. 12, 2 этаж\n\nНаш телефон:\n+7(903)888-99-77";
+"our studio" = "Наша студия";
+"street address" = "улица Бутлерова, 12, Москва, Россия";
+"portfolio" = "Портфолио";
+"studio" = "Студия";
+"appointments" = "Запись";
+"crackelure" = "Кракелюр";
+"marble" = "Мрамор";
+"nude" = "Нейтральный";
+"french" = "Френч";
+"appointment body" = "Вы записались на процедуру %@ в %@";
+"appointment title" = "Запись на процедуру";
+"error" = "Ошибка";
+"close" = "Закрыть";
+"need to choose time" = "Необходимо выбрать время записи";

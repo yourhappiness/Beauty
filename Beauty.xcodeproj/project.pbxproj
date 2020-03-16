@@ -8,26 +8,65 @@
 
 /* Begin PBXBuildFile section */
 		702E7DD7227F829900B93C5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E7DD6227F829900B93C5E /* AppDelegate.m */; };
-		702E7DDA227F829900B93C5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E7DD9227F829900B93C5E /* ViewController.m */; };
-		702E7DDD227F829900B93C5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702E7DDB227F829900B93C5E /* Main.storyboard */; };
+		702E7DDA227F829900B93C5E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E7DD9227F829900B93C5E /* MainViewController.m */; };
 		702E7DE0227F829900B93C5E /* Beauty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 702E7DDE227F829900B93C5E /* Beauty.xcdatamodeld */; };
 		702E7DE2227F829A00B93C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702E7DE1227F829A00B93C5E /* Assets.xcassets */; };
 		702E7DE5227F829A00B93C5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702E7DE3227F829A00B93C5E /* LaunchScreen.storyboard */; };
 		702E7DE8227F829A00B93C5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E7DE7227F829A00B93C5E /* main.m */; };
+		7052FB64229485D70099DACD /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052FB63229485D70099DACD /* TabBarController.m */; };
+		7052FB682294925A0099DACD /* PortfolioCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052FB672294925A0099DACD /* PortfolioCollectionViewController.m */; };
+		7052FB6B229493BD0099DACD /* PortfolioCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7052FB6A229493BD0099DACD /* PortfolioCollectionViewCell.m */; };
+		705B4A12229DCAB500AC9104 /* NotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B4A11229DCAB500AC9104 /* NotificationCenter.m */; };
+		705B886222A5A75700EDFD91 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7083310D22A56C840099CEF6 /* Localizable.strings */; };
+		709AB31B2288C54100B04391 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 709AB31A2288C54100B04391 /* CustomTableViewCell.m */; };
+		70CDD747229B18A40089DDA8 /* AppointmentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CDD746229B18A40089DDA8 /* AppointmentsTableViewController.m */; };
+		70CDD74A229B1C8E0089DDA8 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CDD749229B1C8E0089DDA8 /* CalendarViewController.m */; };
+		70CDD750229B351C0089DDA8 /* MyAppointment+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CDD74E229B351C0089DDA8 /* MyAppointment+CoreDataClass.m */; };
+		70CDD751229B351C0089DDA8 /* MyAppointment+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CDD74F229B351C0089DDA8 /* MyAppointment+CoreDataProperties.m */; };
+		70CDD754229B35770089DDA8 /* CoreDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CDD753229B35770089DDA8 /* CoreDataService.m */; };
+		70CDD757229B429D0089DDA8 /* Appointment.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CDD756229B429D0089DDA8 /* Appointment.m */; };
+		70DAA6032291F0EF003C73ED /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAA6022291F0EF003C73ED /* LocationService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		702E7DD2227F829900B93C5E /* Beauty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beauty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702E7DD5227F829900B93C5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		702E7DD6227F829900B93C5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		702E7DD8227F829900B93C5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		702E7DD9227F829900B93C5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		702E7DDC227F829900B93C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		702E7DD8227F829900B93C5E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		702E7DD9227F829900B93C5E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		702E7DDF227F829900B93C5E /* Beauty.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Beauty.xcdatamodel; sourceTree = "<group>"; };
 		702E7DE1227F829A00B93C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		702E7DE4227F829A00B93C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		702E7DE6227F829A00B93C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		702E7DE7227F829A00B93C5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7052FB62229485D70099DACD /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		7052FB63229485D70099DACD /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		7052FB662294925A0099DACD /* PortfolioCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioCollectionViewController.h; sourceTree = "<group>"; };
+		7052FB672294925A0099DACD /* PortfolioCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioCollectionViewController.m; sourceTree = "<group>"; };
+		7052FB69229493BD0099DACD /* PortfolioCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PortfolioCollectionViewCell.h; path = Beauty/Cells/PortfolioCollectionViewCell.h; sourceTree = SOURCE_ROOT; };
+		7052FB6A229493BD0099DACD /* PortfolioCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioCollectionViewCell.m; sourceTree = "<group>"; };
+		7052FB6D229494980099DACD /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		705B4A10229DCAB500AC9104 /* NotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationCenter.h; sourceTree = "<group>"; };
+		705B4A11229DCAB500AC9104 /* NotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationCenter.m; sourceTree = "<group>"; };
+		705B885E22A56DC500EDFD91 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		705B886022A56E0B00EDFD91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		705B886122A56E2300EDFD91 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7083310E22A56C840099CEF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		709AB31A2288C54100B04391 /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		70CDD745229B18A40089DDA8 /* AppointmentsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppointmentsTableViewController.h; sourceTree = "<group>"; };
+		70CDD746229B18A40089DDA8 /* AppointmentsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppointmentsTableViewController.m; sourceTree = "<group>"; };
+		70CDD748229B1C8E0089DDA8 /* CalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		70CDD749229B1C8E0089DDA8 /* CalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		70CDD74C229B351C0089DDA8 /* MyAppointment+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAppointment+CoreDataProperties.h"; sourceTree = "<group>"; };
+		70CDD74D229B351C0089DDA8 /* MyAppointment+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAppointment+CoreDataClass.h"; sourceTree = "<group>"; };
+		70CDD74E229B351C0089DDA8 /* MyAppointment+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MyAppointment+CoreDataClass.m"; sourceTree = "<group>"; };
+		70CDD74F229B351C0089DDA8 /* MyAppointment+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MyAppointment+CoreDataProperties.m"; sourceTree = "<group>"; };
+		70CDD752229B35770089DDA8 /* CoreDataService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataService.h; sourceTree = "<group>"; };
+		70CDD753229B35770089DDA8 /* CoreDataService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataService.m; sourceTree = "<group>"; };
+		70CDD755229B429D0089DDA8 /* Appointment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Appointment.h; sourceTree = "<group>"; };
+		70CDD756229B429D0089DDA8 /* Appointment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Appointment.m; sourceTree = "<group>"; };
+		70DAA6012291F0EF003C73ED /* LocationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationService.h; sourceTree = "<group>"; };
+		70DAA6022291F0EF003C73ED /* LocationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,18 +99,74 @@
 		702E7DD4227F829900B93C5E /* Beauty */ = {
 			isa = PBXGroup;
 			children = (
+				70CDD74B229B348B0089DDA8 /* Models */,
+				70DAA6002291F0CA003C73ED /* Helpers */,
 				702E7DD5227F829900B93C5E /* AppDelegate.h */,
 				702E7DD6227F829900B93C5E /* AppDelegate.m */,
-				702E7DD8227F829900B93C5E /* ViewController.h */,
-				702E7DD9227F829900B93C5E /* ViewController.m */,
-				702E7DDB227F829900B93C5E /* Main.storyboard */,
+				7052FB65229485F30099DACD /* Controllers */,
 				702E7DE1227F829A00B93C5E /* Assets.xcassets */,
 				702E7DE3227F829A00B93C5E /* LaunchScreen.storyboard */,
+				7083310D22A56C840099CEF6 /* Localizable.strings */,
 				702E7DE6227F829A00B93C5E /* Info.plist */,
 				702E7DE7227F829A00B93C5E /* main.m */,
 				702E7DDE227F829900B93C5E /* Beauty.xcdatamodeld */,
+				7052FB6C229493CD0099DACD /* Cells */,
 			);
 			path = Beauty;
+			sourceTree = "<group>";
+		};
+		7052FB65229485F30099DACD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				702E7DD8227F829900B93C5E /* MainViewController.h */,
+				702E7DD9227F829900B93C5E /* MainViewController.m */,
+				7052FB62229485D70099DACD /* TabBarController.h */,
+				7052FB63229485D70099DACD /* TabBarController.m */,
+				7052FB662294925A0099DACD /* PortfolioCollectionViewController.h */,
+				7052FB672294925A0099DACD /* PortfolioCollectionViewController.m */,
+				70CDD745229B18A40089DDA8 /* AppointmentsTableViewController.h */,
+				70CDD746229B18A40089DDA8 /* AppointmentsTableViewController.m */,
+				70CDD748229B1C8E0089DDA8 /* CalendarViewController.h */,
+				70CDD749229B1C8E0089DDA8 /* CalendarViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7052FB6C229493CD0099DACD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				709AB31A2288C54100B04391 /* CustomTableViewCell.m */,
+				7052FB6D229494980099DACD /* CustomTableViewCell.h */,
+				7052FB69229493BD0099DACD /* PortfolioCollectionViewCell.h */,
+				7052FB6A229493BD0099DACD /* PortfolioCollectionViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		70CDD74B229B348B0089DDA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				70CDD74C229B351C0089DDA8 /* MyAppointment+CoreDataProperties.h */,
+				70CDD74D229B351C0089DDA8 /* MyAppointment+CoreDataClass.h */,
+				70CDD74E229B351C0089DDA8 /* MyAppointment+CoreDataClass.m */,
+				70CDD74F229B351C0089DDA8 /* MyAppointment+CoreDataProperties.m */,
+				70CDD755229B429D0089DDA8 /* Appointment.h */,
+				70CDD756229B429D0089DDA8 /* Appointment.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		70DAA6002291F0CA003C73ED /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				70DAA6012291F0EF003C73ED /* LocationService.h */,
+				70DAA6022291F0EF003C73ED /* LocationService.m */,
+				70CDD752229B35770089DDA8 /* CoreDataService.h */,
+				70CDD753229B35770089DDA8 /* CoreDataService.m */,
+				705B4A10229DCAB500AC9104 /* NotificationCenter.h */,
+				705B4A11229DCAB500AC9104 /* NotificationCenter.m */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +210,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 702E7DC9227F829900B93C5E;
 			productRefGroup = 702E7DD3227F829900B93C5E /* Products */;
@@ -132,8 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				702E7DE5227F829A00B93C5E /* LaunchScreen.storyboard in Resources */,
+				705B886222A5A75700EDFD91 /* Localizable.strings in Resources */,
 				702E7DE2227F829A00B93C5E /* Assets.xcassets in Resources */,
-				702E7DDD227F829900B93C5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,30 +240,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7052FB682294925A0099DACD /* PortfolioCollectionViewController.m in Sources */,
+				7052FB6B229493BD0099DACD /* PortfolioCollectionViewCell.m in Sources */,
+				70CDD751229B351C0089DDA8 /* MyAppointment+CoreDataProperties.m in Sources */,
+				70CDD757229B429D0089DDA8 /* Appointment.m in Sources */,
+				7052FB64229485D70099DACD /* TabBarController.m in Sources */,
 				702E7DE0227F829900B93C5E /* Beauty.xcdatamodeld in Sources */,
-				702E7DDA227F829900B93C5E /* ViewController.m in Sources */,
+				702E7DDA227F829900B93C5E /* MainViewController.m in Sources */,
+				705B4A12229DCAB500AC9104 /* NotificationCenter.m in Sources */,
+				70CDD750229B351C0089DDA8 /* MyAppointment+CoreDataClass.m in Sources */,
 				702E7DE8227F829A00B93C5E /* main.m in Sources */,
+				709AB31B2288C54100B04391 /* CustomTableViewCell.m in Sources */,
+				70DAA6032291F0EF003C73ED /* LocationService.m in Sources */,
 				702E7DD7227F829900B93C5E /* AppDelegate.m in Sources */,
+				70CDD747229B18A40089DDA8 /* AppointmentsTableViewController.m in Sources */,
+				70CDD754229B35770089DDA8 /* CoreDataService.m in Sources */,
+				70CDD74A229B1C8E0089DDA8 /* CalendarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		702E7DDB227F829900B93C5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				702E7DDC227F829900B93C5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		702E7DE3227F829A00B93C5E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				702E7DE4227F829A00B93C5E /* Base */,
+				705B885E22A56DC500EDFD91 /* ru */,
+				705B886022A56E0B00EDFD91 /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7083310D22A56C840099CEF6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7083310E22A56C840099CEF6 /* en */,
+				705B886122A56E2300EDFD91 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -177,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -236,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

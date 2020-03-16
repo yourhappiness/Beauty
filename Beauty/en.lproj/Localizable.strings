@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  Beauty
+
+  Created by Anastasia Romanova on 03/06/2019.
+  Copyright © 2019 Anastasia Romanova. All rights reserved.
+*/
+"manicure" = "Manicure";
+"pedicure" = "Pedicure";
+"design" = "Design";
+"strengthening" = "Strengthening";
+"prices" = "Pricelist";
+"contacts" = "Contacts";
+"address" = "Our address:\nKaluzhskaya subway station\nButlerova street, 12, 2nd floor\n\nOur phone:\n+7(903)888-99-77";
+"our studio" = "Our studio";
+"street address" = "Butlerova street, 12, Moscow, Russia";
+"portfolio" = "Portfolio";
+"studio" = "Studio";
+"appointments" = "Appointments";
+"crackelure" = "Crackle manicure";
+"marble" = "Marble";
+"nude" = "Nude";
+"french" = "French manicure";
+"appointment body" = "You have made an appontment %@ at %@";
+"appointment title" = "New appointment";
+"error" = "Error";
+"close" = "Close";
+"need to choose time" = "You need to choose appointment time";
+
