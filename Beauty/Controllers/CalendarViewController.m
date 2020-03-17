@@ -39,13 +39,13 @@
   self.dateFormatterTime = [[NSDateFormatter alloc]init];
   [self.dateFormatterTime setDateFormat:@"HH:mm"];
   
-  NSDate *firstDate = [self.dateFormatterDate dateFromString:@"05/06/2019"];
+  NSDate *firstDate = [NSDate date];
   [availableDates addObject:firstDate];
-  NSDate *secondDate = [self.dateFormatterDate dateFromString:@"06/06/2019"];
+  NSDate *secondDate = [self.dateFormatterDate dateFromString:@"06/04/2020"];
   [availableDates addObject:secondDate];
-  NSDate *thirdDate = [self.dateFormatterDate dateFromString:@"07/06/2019"];
+  NSDate *thirdDate = [self.dateFormatterDate dateFromString:@"27/03/2020"];
   [availableDates addObject:thirdDate];
-  NSDate *forthDate = [self.dateFormatterDate dateFromString:@"08/06/2019"];
+  NSDate *forthDate = [self.dateFormatterDate dateFromString:@"08/06/2020"];
   [availableDates addObject:forthDate];
   
   NSDate *twelve = [self.dateFormatterTime dateFromString:@"12:00"];
